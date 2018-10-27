@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Pradhan Mantri Fasal Bima Yojana</title>
+  <title>Farmer Registration</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -24,6 +24,12 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
+  <!-- =======================================================
+    Theme Name: Serenity
+    Theme URL: https://bootstrapmade.com/serenity-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
 
 <body data-spy="scroll" data-target=".bs-docs-sidebar">
@@ -34,10 +40,7 @@
       <div class="navbar-inner">
         <div class="container">
           <!-- logo -->
-          <a class="brand logo" href="index.html">
-              <img src="assets/img/head.png" alt="" />
-          </a>
-
+          
           <!-- end logo -->
           <!-- top menu -->
           <div class="navigation">
@@ -46,12 +49,52 @@
                 <li class="dropdown">
                   <a href="index.html">Home</a>
                 </li>
-
-                <li class="active">
-                  <a href="register.html">Register Complaint</a>
+                <li class="dropdown">
+                  <a href="#">Features</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="overview.html">Overview</a></li>
+                    <li><a href="scaffolding.html">Scaffolding</a></li>
+                    <li><a href="base-css.html">Base CSS</a></li>
+                    <li><a href="components.html">Components</a></li>
+                    <li><a href="javascript.html">Javascripts</a></li>
+                    <li><a href="icons.html">More icons</a></li>
+                    <li class="dropdown"><a href="#">3rd level</a>
+                      <ul class="dropdown-menu sub-menu">
+                        <li><a href="#">Example menu</a></li>
+                        <li><a href="#">Example menu</a></li>
+                        <li><a href="#">Example menu</a></li>
+                      </ul>
+                    </li>
+                  </ul>
                 </li>
-
-                <li>
+                <li class="dropdown">
+                  <a href="#">Pages</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="pricingtable.html">Pricing table</a></li>
+                    <li><a href="fullwidth.html">Fullwidth</a></li>
+                    <li><a href="404.html">404</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">Portfolio</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="portfolio-2cols.html">Portfolio 2 columns</a></li>
+                    <li><a href="portfolio-3cols.html">Portfolio 3 columns</a></li>
+                    <li><a href="portfolio-4cols.html">Portfolio 4 columns</a></li>
+                    <li><a href="portfolio-detail.html">Portfolio detail</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">Blog</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="blog_left_sidebar.html">Blog left sidebar</a></li>
+                    <li><a href="blog_right_sidebar.html">Blog right sidebar</a></li>
+                    <li><a href="post_left_sidebar.html">Post left sidebar</a></li>
+                    <li><a href="post_right_sidebar.html">Post right sidebar</a></li>
+                  </ul>
+                </li>
+                <li class="active">
                   <a href="contact.html">Contact</a>
                 </li>
               </ul>
@@ -70,37 +113,75 @@
         <div class="row">
           <div class="span12">
             <div class="centered">
-              <h1 style="color: white">Register For New Farmer User</h1>
-
+              <h1 style="color: white">REGISTER FOR NEW FARMER USER</h1>
+              
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+  
           <form action="" method="post" role="form" class="contactForm" style="margin-left: 300px">
             <div class="row">
               <div class="span4 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+                <input type="text" name="name" class="form-control" id="name" placeholder="First Name" data-rule="minlen:4"
                   data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
 
               <div class="span4 form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
-                  data-msg="Please enter a valid email" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Last Name" data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
               <div class="span8 form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Address Line 1" data-rule="minlen:4"
                   data-msg="Please enter at least 8 chars of subject" />
                 <div class="validation"></div>
               </div>
-              <div class="span8 form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
-                  placeholder="Message"></textarea>
+               <div class="span8 form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Address Line 2" data-rule="minlen:4"
+                  data-msg="Please enter at least 8 chars of subject" />
                 <div class="validation"></div>
+              </div>
+               <div class="span4 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="City" data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+               <div class="span4 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="State" data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="span8 form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Phone Number" data-rule="minlen:4"
+                  data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="span4 form-group">
+                 <select class="form-dropdown validate[required]" id="input_14" name="q14_applyingFor" style="width:220px" data-component="dropdown" required="">
+            <option value="">Select farmer type </option>
+            <option value="Work 1 "> Small </option>
+            <option value="Work 2"> Marginal </option>
+           
+            <option value="Any Position"> Others </option>
+          </select>
+        </div>
+         <div class="span4 form-group">
+           <select class="form-dropdown validate[required]" id="input_14" name="q14_applyingFor" style="width:220px" data-component="dropdown" required="">
+            <option value="">Select farmer category </option>
+            <option value="Work 1 "> Owner </option>
+            <option value="Work 2"> Tenant </option>
+           
+            <option value="Any Position"> Share Cropper </option>
+          </select>
+        </div>
+        
+
+              <div class="span8 form-group">
+                
                 <div class="text-center">
                   <button class="btn btn-color btn-rounded" type="submit">Send message</button>
                 </div>
@@ -112,7 +193,7 @@
       </div>
     </div>
   </section>
-
+  
 
 </body>
 
