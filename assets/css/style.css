@@ -11,6 +11,11 @@
 @import url('overwrite.css');
 /* ====================================== */
 
+.well li{
+  margin-left: 50px;
+
+}
+
 .clear {
   clear: both;
 }
