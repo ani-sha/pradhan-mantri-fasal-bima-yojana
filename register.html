@@ -40,7 +40,7 @@
       <div class="navbar-inner">
         <div class="container">
           <!-- logo -->
-
+          <a class="brand logo" href="index.html"><img src="assets/img/head.png" alt=""></a>
           <!-- end logo -->
           <!-- top menu -->
           <div class="navigation">
@@ -50,8 +50,8 @@
                   <a href="index.html">Home</a>
                 </li>
 
-                <li class="active">
-                  <a href="register.html">Register Complaint</a>
+                <li>
+                  <a href="about.html">About Us</a>
                 </li>
 
                 <li>
@@ -96,20 +96,28 @@
                 <div class="validation"></div>
               </div>
 
-              <div class="span4 form-group">
-               <input type="text" name="name" class="form-control" id="name" placeholder="Date of Birth" data-rule="minlen:4"
-                 data-msg="Please enter at least 4 chars" />
-               <div class="validation"></div>
-             </div>
+
 
              <div class="span4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Gender" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars" />
-              <div class="validation"></div>
+                <select class="form-dropdown validate[required]" id="input_14" name="q14_applyingFor" style="width:370px" data-component="dropdown" required="">
+                     <option value="">Gender </option>
+                     <option value="Work 1 "> Male </option>
+                     <option value="Work 2"> Female </option>
+                     <option value="Any Position"> Other </option>
+               </select>
+             </div>
+
+            <div class="span4 form-group">
+               <select class="form-dropdown validate[required]" id="input_14" name="q14_applyingFor" style="width:370px" data-component="dropdown" required="">
+                    <option value="">Caste </option>
+                    <option value="Work 1 "> General </option>
+                    <option value="Work 2"> OBC </option>
+                    <option value="Any Position"> SC/ST </option>
+              </select>
             </div>
 
             <div class="span4 form-group">
-             <input type="text" name="name" class="form-control" id="name" placeholder="Caste" data-rule="minlen:4"
+             <input type="text" name="name" class="form-control" id="name" placeholder="Date of Birth" data-rule="minlen:4"
                data-msg="Please enter at least 4 chars" />
              <div class="validation"></div>
            </div>
@@ -125,12 +133,6 @@
                data-msg="Please enter at least 4 chars" />
              <div class="validation"></div>
            </div>
-
-           <div class="span4 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Email" data-rule="minlen:4"
-              data-msg="Please enter at least 4 chars" />
-            <div class="validation"></div>
-          </div>
 
               <div class="span8 form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Address Line 1" data-rule="minlen:4"
@@ -169,7 +171,7 @@
 
               <div class="span4 form-group">
                  <select class="form-dropdown validate[required]" id="input_14" name="q14_applyingFor" style="width:370px" data-component="dropdown" required="">
-                      <option value="">Select farmer type </option>
+                      <option value="">Farmer Type </option>
                       <option value="Work 1 "> Small </option>
                       <option value="Work 2"> Marginal </option>
                       <option value="Any Position"> Others </option>
@@ -177,7 +179,7 @@
               </div>
                <div class="span4 form-group">
                  <select class="form-dropdown validate[required]" id="input_14" name="q14_applyingFor" style="width:370px" data-component="dropdown" required="">
-                  <option value="">Select farmer category </option>
+                  <option value="">Farmer Category </option>
                   <option value="Work 1 "> Owner </option>
                   <option value="Work 2"> Tenant </option>
                   <option value="Any Position"> Share Cropper </option>
