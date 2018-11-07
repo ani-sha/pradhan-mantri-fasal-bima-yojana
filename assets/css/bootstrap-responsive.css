@@ -113,6 +113,10 @@
     margin-left: -30px;
     *zoom: 1;
   }
+  .row1{
+    margin-left: 31.5%;
+    *zoom: 1;
+  }
   .row:before,
   .row:after {
     display: table;
