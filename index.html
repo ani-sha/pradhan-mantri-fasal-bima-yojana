@@ -27,7 +27,6 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
-
 </head>
 
 <body>
@@ -121,7 +120,35 @@
               <p>
                 Report crop loss details and claim the insurance.
                 <div class="text-center">
-                  <button class="btn btn-color btn-rounded" type="submit">Report</button>
+                  <button class="btn btn-color btn-rounded" data-toggle="modal" data-target="#myModal" type="submit">Report</button>
+
+                  <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Please Log In to continue!</h4>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="input-group">
+                              <input id="user" type="text" class="form-control" name="user" placeholder="Name" required>
+                            </div>
+                            <div class="input-group">
+                              <input id="password" type="password" class="form-control" name="password" placeholder="Password" required>
+                            </div>
+                            <button type="submit" class="btn btn-color btn-rounded" >Log In</button>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger btn-rounded" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
                 </div>
               </p>
             </div>
@@ -213,7 +240,6 @@
   <script src="assets/js/jquery.flexslider.js"></script>
   <script src="assets/js/hover/jquery-hover-effect.js"></script>
   <script src="assets/js/hover/setting.js"></script>
-
   <!-- Template Custom JavaScript File -->
   <script src="assets/js/custom.js"></script>
 
