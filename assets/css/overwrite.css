@@ -28,7 +28,7 @@ img {
 
 body {
   margin: 0;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.6em;
   color: #666;
@@ -160,7 +160,7 @@ blockquote {
     border: none;
     page-break-inside: avoid;
 }
-  
+
 fieldset {
   padding: 0;
   margin: 0;
@@ -660,12 +660,18 @@ button.close {
   -webkit-appearance: none;
 }
 
+.btn:active:after{
+  color: #94c045 !important;
+}
+.btn:visited{
+  color: #94c045 !important;
+}
 .btn {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
   *zoom: 1;
-  padding: 4px 12px;
+  padding: 4px px;
   margin-bottom: 0;
   font-size: 14px;
   line-height: 20px;
